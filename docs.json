@@ -1,79 +1,104 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "almond",
-  "name": "Mintlify Starter Kit",
+  "theme": "mint",
+  "name": "Sarraf Pro Yardım",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#2563EB",
+    "light": "#60A5FA",
+    "dark": "#1D4ED8"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/logo/sarraf-favicon.png",
   "navigation": {
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    },
-    "groups": [
+    "languages": [
       {
-        "group": "Günlük kullanım",
-        "icon": "book-open",
-        "pages": [
-          "gunluk-kullanim/banka-akis"
-        ]
-      },
-      {
-        "group": "Getting Started",
-        "pages": [
-          "index",
-          "quickstart"
+        "language": "tr",
+        "default": true,
+        "groups": [
+          {
+            "group": "Başlangıç",
+            "pages": [
+              "index",
+              "quickstart"
+            ]
+          },
+          {
+            "group": "Günlük kullanım",
+            "icon": "book-open",
+            "pages": [
+              "gunluk-kullanim/banka-akis"
+            ]
+          }
         ]
       }
     ]
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/sarraf-light.svg",
+    "dark": "/logo/sarraf-dark.svg",
+    "href": "/"
   },
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "https://sarraf.pro/iletisim",
+        "label": "Destek"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://app.mintlify.com"
+      "label": "Sarraf Pro",
+      "href": "https://sarraf.pro"
     }
   },
   "contextual": {
-    "options": [
-      "copy",
-      "view",
-      "chatgpt",
-      "claude",
-      "perplexity",
-      "mcp",
-      "cursor",
-      "vscode"
-    ]
+    "options": []
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "linkedin": "https://www.linkedin.com/company/sarrafpro",
+      "instagram": "https://instagram.com/sarrafpro"
+    },
+    "links": [
+      {
+        "header": "Sarraf Pro",
+        "items": [
+          {
+            "label": "Web sitesi",
+            "href": "https://sarraf.pro"
+          },
+          {
+            "label": "İletişim",
+            "href": "https://sarraf.pro/iletisim"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "Sarraf Pro günlük kullanım kılavuzları. Banka hareketlerini bulma, filtreler, durum işaretleri ve banka sorgularını adım adım öğrenin.",
+  "appearance": {
+    "default": "light",
+    "strict": false
+  },
+  "background": {
+    "color": {
+      "light": "#FFFFFF",
+      "dark": "#0D101E"
     }
+  },
+  "search": {
+    "prompt": "Kılavuzlarda ara..."
+  },
+  "seo": {
+    "metatags": {
+      "og:locale": "tr_TR"
+    },
+    "organization": {
+      "name": "Sarraf Pro",
+      "url": "https://sarraf.pro",
+      "logo": "https://r2.backhub.pro/sarraf.svg"
+    }
+  },
+  "fonts": {
+    "family": "Lexend Deca"
   }
 }
