@@ -1,0 +1,172 @@
+---
+title: "Banka Akış kullanımı"
+sidebarTitle: "Banka Akış"
+description: "Banka hareketlerini bulun, ayrıntılarını inceleyin; filtreleri, durum işaretlerini ve banka sorgu sonuçlarını adım adım öğrenin."
+icon: "building-columns"
+keywords:
+  - "banka akış"
+  - "banka hareketi"
+  - "hareket arama"
+  - "havale"
+  - "EFT"
+  - "banka filtresi"
+  - "riskli kayıtlar"
+---
+
+Banka Akış ekranında banka hareketlerini bulun, ayrıntılarını inceleyin ve sorgu durumlarını takip edin. Bu kılavuz, günlük kullanımda bir hareketi bulup kontrol etmeniz için gereken adımları anlatır.
+
+**Erişim:** Sol menü → **Banka Akış**  
+**Ekran başlığı:** **Akış** · **Okuma süresi:** Yaklaşık 6 dakika
+
+<Info>
+  Görünen banka hesapları, düğmeler ve ek sütunlar firmanızın ayarlarına ve kullanıcı yetkilerinize göre değişebilir. Banka Akış menüsü görünmüyorsa firma yöneticinizden erişiminizi kontrol etmesini isteyin.
+</Info>
+
+## Hareketi bulma
+
+![Banka Akış arama alanı: 1 banka seçimi, 2 ünvan ve açıklama araması, 3 dönem seçimi.](/images/banka-akis/arama-ve-filtreler.png)
+
+*Görsel yalnız filtre alanını gösterir; müşteri ve işlem bilgisi içermez.*
+
+<Steps>
+  <Step title="Banka Akış ekranını açın">
+    Sol menüden **Banka Akış** seçeneğine tıklayın. Sayfanın başlığında **Akış** yazısını görürsünüz.
+  </Step>
+  <Step title="İncelediğiniz dönemi kontrol edin">
+    Arama kutusunun sağındaki dönem seçicisini kontrol edin. Erişiminize göre **Bugün**, **Son 24 Saat**, **Son 3 Gün** veya **Son 7 Gün** seçeneklerinden birini seçebilirsiniz.
+
+    Dönemi değiştirdiğinizde liste yeniden yüklenir. Seçici kapalıysa kullanılabilecek dönemi firma ayarlarınız belirliyor olabilir.
+  </Step>
+  <Step title="Gerekirse banka filtresini kullanın">
+    Birden fazla banka hesabı varsa arama alanının solunda **Banka Filtre** görünür. Bir veya birden fazla banka hesabı seçerek mevcut sayfadaki listeyi daraltın.
+
+    Seçimi kaldırmak için banka filtresini açıp **Temizle** düğmesine tıklayın.
+  </Step>
+  <Step title="Ad, ünvan veya açıklama ile arayın">
+    **Ünvan ve Açıklama içinde arama yapın** alanına aradığınız kişinin adını, firma ünvanını veya hareket açıklamasındaki bir ifadeyi yazın. Kimlik ya da vergi numarasıyla da arama yapabilirsiniz.
+
+    Örneğin, açıklamasında “havale” geçen kayıtları bulmak için **havale** yazın. Aramayı kaldırmak için yazdığınız metni silin.
+  </Step>
+  <Step title="Diğer sayfaları da kontrol edin">
+    Aradığınız kayıt bu sayfada yoksa alt bölümden diğer sayfalara geçin. Sayfa başına **100, 150, 250 veya 500** hareket seçebilirsiniz.
+
+    Yeni sayfa yüklendiğinde arama, banka ve risk filtresi temizlenir. Gerekirse bu seçimleri yeniden uygulayın.
+  </Step>
+  <Step title="Hareketin ayrıntısını açın">
+    İlgili satırın solundaki **açma okuna** tıklayın. Ayrıntılar satırın altında açılır. Aynı oku tekrar kullanarak kapatabilirsiniz.
+
+    Firmanızın ayarına göre satıra tıklamak da ayrıntıyı açabilir. Satıra tıklama sonuç vermiyorsa sol kenardaki oku kullanın.
+  </Step>
+</Steps>
+
+<Note>
+  Arama, banka filtresi ve **RİSKLİ** filtresi yalnız yüklenmiş mevcut sayfadaki kayıtları süzer. Aradığınız hareketi bulamazsanız dönemi ve diğer sayfaları da kontrol edin. Liste yeniden yüklendiğinde bu filtreler temizlenir.
+</Note>
+
+**İşlem tamam:** Aradığınız satırın ayrıntıları açıldığında ad/ünvan, açıklama, tarih ve tutarı birlikte kontrol edebilirsiniz.
+
+## Hareket bilgilerini okuma
+
+| Alan | Ne gösterir? |
+| --- | --- |
+| Banka simgesi ve zaman | Hareketin bankasını ve zaman bilgisini gösterir. |
+| Ad Soyad / Unvan | İşlemle ilişkili kişi veya işletme bilgisini gösterir. |
+| Açıklama | Bankadan aktarılan hareket açıklamasını gösterir. |
+| Tutar | İlgili hareketin tutarını ve para birimini gösterir. |
+| Bakiye | Gösterimi etkinse bankanın hareketle birlikte aktardığı bakiye bilgisini gösterir. |
+| Ayrıntı alanı | Varsa kimlik/vergi numarası, karşı IBAN, hareket tarihi, dekont açıklaması ve diğer ayrıntıları gösterir. |
+
+Yabancı para hareketlerinin ayrıntısında kur ve TL karşılığı da bulunabilir. Geçerli kimlik bilgisi ve uygun erişim olduğunda ayrıntıdaki ad/ünvan bağlantısından müşteri kartına geçebilirsiniz.
+
+**Gelen ve giden hareketler:** Giden hareketler bu ekran için etkinleştirilmişse gelenlerle birlikte listelenir. Yön simgeleri açıksa tutarın yanındaki aşağı ok gelen, yukarı ok giden hareketi gösterir. Risk ve sorgu durumları tutarın rengini değiştirebildiği için işlem yönünü yalnız renge bakarak belirlemeyin.
+
+**Ek sütunlar:** Esnaf ve Konnektör gibi alanlar, ilgili hizmet ve erişimler etkin olduğunda görünür.
+
+## Durum işaretlerini anlama
+
+### Açıklamadaki riskli kelimeler
+
+Açıklamada firmanızın tanımladığı riskli kelimelerle eşleşme varsa ilgili ifadeler işaretlenir. Uyarı simgesinin üzerine gelerek eşleşen kelimeleri okuyabilirsiniz.
+
+Üst bölümde **RİSKLİ** rozeti varsa tıklayarak mevcut sayfadaki bu kayıtları süzün. Tüm kayıtları yeniden görmek için aynı rozete tekrar tıklayın. Rozetteki adet de yüklenmiş sayfadaki işaretli hareketlere aittir.
+
+### Sorgu ve kimlik bilgileri
+
+| Ekrandaki ifade | Nasıl değerlendirmelisiniz? |
+| --- | --- |
+| **Masak Sorgusu Yapılamadı** | Sorgu sonucu alınamamıştır. İlgili kaydın durumunu inceleyin. |
+| **Sorunlu Hareket** | İlgili sorgu uyarısını ve hareket ayrıntısını inceleyin. |
+| **Masak Kaydı Yok** | Bu kontrol için gösterilen sorgu sonucudur. |
+| **Kimlik Var** | Hareketle ilişkili kimlik kaydı bulunur. |
+| **Kimlik Yok** | İlgili kimlik kaydı bulunmaz. |
+| **Kimlik Zorunlu** | Ekran bu hareket için kimlik kaydı gerektiğini belirtir. |
+
+<Note>
+  Açıklamadaki kelime eşleşmesi ile MASAK sorgu sonucu ayrı kontrollerdir. **Masak Kaydı Yok** ifadesi tek başına müşterinin veya işlemin tüm yönleriyle onaylandığı anlamına gelmez. Kimlik işaretleri ise kimlik kontrolü etkin olduğunda görünür.
+</Note>
+
+## Bankaların sorgu durumunu takip etme
+
+Bankalar ekranın üstünde simgeler halinde veya sağ tarafta bir liste olarak görünebilir. Son sorgu zamanını ve varsa hata açıklamasını bu alandan inceleyin.
+
+| Durum | Açıklama |
+| --- | --- |
+| **Sorgulanıyor** | Banka sorgusu devam ediyordur; sonuçlanmasını bekleyin. |
+| **Yeni Hareket Yok** | İlgili sorguda yeni hareket bulunmamıştır. |
+| **Başarısız Sorgu** | Sorgu tamamlanamamıştır. Gösterilen hata açıklamasını okuyun. |
+| **Limitli** | Bu işaretli bankalar toplu kontrolde atlanır. Bankanın gösterdiği sorgu bilgisini inceleyin. |
+
+Üstte banka simgeleri kullanılan görünümde, başlıktaki geçmiş/saat simgesinden **Görevler** kutusunu açarak yeni hareket sayısını ve sorgu sonuçlarını görebilirsiniz.
+
+<Tip>
+  **Banka Filtre** listeyi daraltır. Üstteki banka simgesine veya sağ paneldeki banka satırına tıklamak ise o banka için sorgu başlatır. Listeyi süzmek istediğinizde arama alanındaki **Banka Filtre** seçicisini kullanın.
+</Tip>
+
+### Listeyi yenileme ve banka sorgulama
+
+- **Tabloyu Yenile**, birden fazla banka bulunan görünümde kayıt listesini yeniden yükler.
+- **Bankayı Kontrol Et ve Yenile**, tek bankalı görünümde banka kontrolü ile yenilemeyi başlatır.
+- **Tümünü Kontrol Et**, uygun bankalar için toplu sorgu başlatır. Hâlen sorgulanan veya **Limitli** işaretli bankalar atlanır.
+
+Bakiye bilgilerini değerlendirirken bankanın son sorgu zamanını da kontrol edin. Bakiyelerin görünmesi kullanıcı erişimine ve ekran ayarlarına bağlıdır.
+
+## Alt bölümdeki sayı ve toplamlar
+
+Alt soldaki **Hareket** sayısı, listeye ait toplam kayıt sayısını gösterir. Yazdığınız arama metnine veya banka/risk filtresine göre görünen satırların sayısı değildir.
+
+Alt sağdaki tutar, **yüklenmiş sayfadaki hareket tutarlarının toplamıdır**. Mevcut sayfada uyguladığınız arama, banka ve risk filtrelerinden önceki kayıtlar üzerinden hesaplanır.
+
+Bu tutarı dönemin tamamının toplamı, hesap bakiyesi veya net gelen/giden tutar olarak kullanmayın.
+
+## Sık karşılaşılan durumlar
+
+<AccordionGroup>
+  <Accordion title="Aradığım hareket görünmüyor">
+    Önce seçili dönemi kontrol edin. Arama metnini silin, **Banka Filtre** seçimini temizleyin ve açıksa **RİSKLİ** filtresini kapatın. Ardından diğer sayfalara bakın veya sayfa başına kayıt sayısını artırın. Hareket hâlâ yoksa ilgili bankanın son sorgu zamanını ve sonucunu inceleyin.
+  </Accordion>
+  <Accordion title="Yeni hareket görünmüyor">
+    İlgili bankanın son sorgu zamanını kontrol edin. **Sorgulanıyor** durumunda sonuçlanmasını bekleyin. **Başarısız Sorgu** varsa hata açıklamasını okuyun. **Tabloyu Yenile** ile banka sorgulamanın farklı işlemler olduğunu dikkate alın.
+  </Accordion>
+  <Accordion title="Tarih seçicisi veya bazı düğmeler kapalı">
+    Seçenekler firma ayarlarına ve kullanıcı yetkinize bağlıdır. Beklediğiniz erişim yoksa firma yöneticinize başvurun.
+  </Accordion>
+  <Accordion title="Satıra tıklayınca ayrıntı açılmıyor">
+    Satırın solundaki açma okuna tıklayın. Satıra tıklayarak ayrıntı açma davranışı firma ayarına bağlıdır.
+  </Accordion>
+  <Accordion title="Giden hareketler veya bakiye sütunu görünmüyor">
+    Bu alanların Banka Akış ekranı için etkin olması gerekir. Firma yöneticinizden ilgili ekran ayarlarını ve kullanıcı erişiminizi kontrol etmesini isteyin.
+  </Accordion>
+  <Accordion title="Faturalandırma düğmesini göremiyorum">
+    Banka Akış üzerinden faturalandırma ayrıca etkinleştirilir ve yalnız uygun hareketlerde, gerekli yetkiyle görünür. Bir hareketin ayrıntısını açmak tek başına fatura oluşturmaz. Fatura bilgisi bulunan kayıtlarda **Fatura Görüntüle** seçeneği bulunabilir.
+  </Accordion>
+</AccordionGroup>
+
+## Günlük kontrol sırası
+
+1. Doğru dönemi incelediğinizi doğrulayın.
+2. Bankaların son sorgu zamanlarını ve hata durumlarını gözden geçirin.
+3. Aradığınız hareketi bulun ve ayrıntısını açın.
+4. Açıklama, sorgu ve kimlik işaretlerini birlikte inceleyin.
+5. Sonraki kontrole geçerken arama ve filtrelerinizi kontrol edin.
+
+*Son gözden geçirme: 19 Ekim 2026.*
