@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "almond",
   "name": "Sarraf Pro Yardım",
   "colors": {
     "primary": "#2563EB",
@@ -100,5 +100,8 @@
   },
   "fonts": {
     "family": "Lexend Deca"
+  },
+  "icons": {
+    "library": "fontawesome"
   }
 }
